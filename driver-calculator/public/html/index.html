@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Licence Manager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="style" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/css/mdb.min.css" rel="stylesheet">
+
+<!-- web3 lib -->
+    <script src="public/js/web3.min.1.3.1.js"></script>
+
+<!-- jquery -->
+    <script type="text/javascript" src="public/js/jquery/jquery-3.js"></script>
+
+<!-- bootstrap lib -->
+    <link rel="style" type="text/css" href="public/css/bootstrap.min.css">
+    <script type="text/javascript" src="public/js/bootstrap/util.js"></script>
+    <script type="text/javascript" src="public/js/bootstrap/alert.js"></script>
+    <script type="text/javascript" src="public/js/bootstrap/button.js"></script>
+    <script type="text/javascript" src="public/js/bootstrap/carousel.js"></script>
+    <script type="text/javascript" src="public/js/bootstrap/collapse.js"></script>
+    <script type="text/javascript" src="public/js/bootstrap/modal.js"></script>
+    <script type="text/javascript" src="public/js/bootstrap/scrollspy.js"></script>
+    <script type="text/javascript" src="public/js/bootstrap/tab.js"></script>
+    <script type="text/javascript" src="public/js/bootstrap/popper.js"></script>
+    <script type="text/javascript" src="public/js/bootstrap/dropdown.js"></script>
+    <script type="text/javascript" src="public/js/bootstrap/tooltip.js"></script>
+    <script type="text/javascript" src="public/js/bootstrap/index_bootstrap.js"></script>
+
+<!-- custom -->
+    <link rel="style" type="text/css" href="public/css/style.css">
+    <script src="public/js/utils.js" defer></script>
+    <script src="public/js/consts.js" defer></script>
+    <script src="public/js/contract_abi.js"></script>
+    <script src="public/js/portis_log.js" defer></script>
+
+<!-- portis  -->
+    <script
+    src="https://cdn.jsdelivr.net/npm/@portis/web3@2.0.0-beta.56/umd/index.js"
+    integrity="sha256-YglsZuKbHpe2+U4HYCd3juAiADRTU7Ys2AGfCGY+Nmo="
+    crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+      <center>
+        <div class="container container-pad">
+          <div class="form-group">
+            <br><br><h1>Licence Manager</h1>
+            <label id="text" style="font-size: 25px;">Loading... </label>
+            <img id="loading_gif" src="public/img/loading.gif" height=30 style="" />
+            <img id="valid_img" src="public/img/valid.png" height=30 style="display:none;" />
+            <img id="invalid_img" src="public/img/invalid.png" height=30 style="display:none;" />
+            <br><a id="link_buy" style="display:none;" href="https://license-manager.ballmer.co">Click here to buy a license</a>
+            <div id="debug"></div>
+          </div>
+        </div>
+      </center>
+    </body>
+</html>

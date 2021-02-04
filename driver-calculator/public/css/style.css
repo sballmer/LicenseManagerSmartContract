@@ -1,0 +1,35 @@
+/* pdf */
+.container {
+	position: absolute;
+	height:95%;
+	width:90%;
+	margin:5%;
+}
+.embedded {
+	position: relative;
+	top: 0%;
+	left: 0%;
+	bottom: 0%;
+	right: 0%;
+}
+
+/* bootstrap */
+.container-pad {
+	margin-top: 50px;
+}
+.wrap {
+	word-wrap: break-word;
+}
+.imgbox {
+	display: grid;
+	height: 100%;
+}
+.center-fit {
+	max-width: 100%;
+	max-height: 100vh;
+	margin: auto;
+}
+.input_number_spin_hide { 
+	-webkit-appearance: none; 
+	margin: 0; 
+}

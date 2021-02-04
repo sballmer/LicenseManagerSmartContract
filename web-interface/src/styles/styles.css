@@ -1,0 +1,85 @@
+
+main {
+  color: #232129;
+  padding: 30px;
+  font-family: -apple-system, Roboto, sans-serif, serif;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+  margin-top: 0;
+  margin-bottom: 64;
+  max-width: 320;
+}
+
+p {
+  margin-bottom: 48;
+}
+
+ul {
+  margin-bottom: 96;
+  padding-left: 0;
+}
+
+li{
+  font-weight: 300;
+  font-size: 24px;
+  max-width: 560px;
+}
+
+a {
+  color: #572674;
+  font-weight: bold;
+  font-size: 16px;
+  vertical-align: 5%;
+}
+
+button {
+  padding: 7px;
+  margin: 5px;
+  width: 120px; 
+}
+
+label, input {
+  padding: 5px;
+  margin: 5px;
+}
+/* 
+.btn-menu {
+  color: #ffffff;
+  padding: 12px;
+  width: 180px; 
+  background-color: #3d3c39;
+  font-size: 1.5rem;
+  border-radius: 4px;
+}
+
+.current {
+  background-color: #777570;
+  border-color: #3d3c39
+}
+
+.code {
+  color: #8A6534;
+  padding: 4px;
+  background-color: #FFF4DB;
+  font-size: 1.25rem;
+  border-radius: 4px;
+}
+
+.description {
+  color: #232129;
+  font-size: 1.32rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
