@@ -20,7 +20,7 @@ const DrawerItem = ({
           Close
         </Button>
         <div style={{ margin: '40px' }}>
-          <a href="https://github.com/charly1/HackEncodeClub" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/sballmer/LicenseManagerSmartContract" target="_blank" rel="noopener noreferrer">
             DApp source code repo
           </a>
         </div>
